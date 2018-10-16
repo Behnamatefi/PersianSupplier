@@ -7,7 +7,7 @@
 Meet **Persian Supplier** as part of **BOX** products. a handy sketch plugin which supplies persian data.
 
 <br>
-###Features
+Features
 ------------
 - Names
 - Cities
@@ -15,7 +15,7 @@ Meet **Persian Supplier** as part of **BOX** products. a handy sketch plugin whi
 - Phone numbers
 
 <br>
-###Manual Installation
+Manual Installation
 
 ------------
 
