@@ -6,7 +6,6 @@
 
 Meet **Persian Supplier** as part of **BOX** products. a handy sketch plugin which supplies persian data.
 
-<br>
 <h3>Features</h3>
 <ul>
   <li>Names</li>
@@ -14,8 +13,6 @@ Meet **Persian Supplier** as part of **BOX** products. a handy sketch plugin whi
   <li>Dates</li>
   <li>Phone numbers</li>
 </ul>
-
-<br>
 
 <h3>Manual Installation</h3>
 
