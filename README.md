@@ -20,6 +20,6 @@ Meet **Persian Supplier**, as part of **BOX** products. a handy sketch plugin wh
 
 2. Reveal plugins folder in finder `('Sketch App Menu' -> 'Plugins' -> 'Manage Plugins...' -> 'Gear Icon' -> 'Show Plugins Folder').`
 
-3. Delete previously installed version of the plugin (`persiansupplier` folder or `PersianSupplier.sketchplugin` bundle)
+3. Delete previously installed version of the plugin (`persiansupplier` folder or `persiansupplier.sketchplugin` bundle)
 
 4. Un-zip downloaded archive and double-click `PersianSupplier.sketchplugin` file to install.
