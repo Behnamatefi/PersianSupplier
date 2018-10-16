@@ -2,7 +2,7 @@
 
 # Persian Supplier
 
-> "The new leader is a facilitator, not an order giver", John Naisbitt
+> "The only job of a true friend is to facilitate whatever method he chooses.", Caleb Carr
 
 Meet **Persian Supplier**, as part of **BOX** products. a handy sketch plugin which supplies persian data.
 
