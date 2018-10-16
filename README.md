@@ -4,7 +4,7 @@
 
 > "The new leader is a facilitator, not an order giver", John Naisbitt
 
-Meet **Persian Supplier** as part of **BOX** products. a handy sketch plugin which supplies persian data.
+Meet **Persian Supplier**, as part of **BOX** products. a handy sketch plugin which supplies persian data.
 
 <h3>Features</h3>
 <ul>
