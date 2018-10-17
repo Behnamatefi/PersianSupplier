@@ -25,7 +25,6 @@ Meet **Persian Supplier**, as part of **BOX** products. a handy sketch plugin wh
 4. Un-zip downloaded archive and double-click `PersianSupplier.sketchplugin` file to install.
 
 <h3>Shortcut for refreshing data</h3>
-<p>Hit `cmd shift d` shortcut to refresh data</p>
 
 
 <h3>Usage</h3>
