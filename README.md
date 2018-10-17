@@ -25,6 +25,7 @@ Meet **Persian Supplier**, as part of **BOX** products. a handy sketch plugin wh
 4. Un-zip downloaded archive and double-click `PersianSupplier.sketchplugin` file to install.
 
 <h3>Shortcut for refreshing data</h3>
+Hit `Ctrl + Shift + Q` or Run plugin from 'Plugins > Sketch QR Code > Generate QR Code'
 
 
 <h3>Usage</h3>
