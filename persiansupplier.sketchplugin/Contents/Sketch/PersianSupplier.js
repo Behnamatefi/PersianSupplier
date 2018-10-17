@@ -171,10 +171,10 @@ var DataSupplier = sketch.DataSupplier;
 var util = __webpack_require__(/*! util */ "util");
 
 function onStartup() {
-  DataSupplier.registerDataSupplier('public.text', 'Names', 'SupplyNames');
-  DataSupplier.registerDataSupplier('public.text', 'Cities', 'SupplyCities');
-  DataSupplier.registerDataSupplier('public.text', 'Dates', 'SupplyDates');
-  DataSupplier.registerDataSupplier('public.text', 'Phone Numbers', 'SupplyPhones');
+  DataSupplier.registerDataSupplier("public.text", "Names", "SupplyNames");
+  DataSupplier.registerDataSupplier("public.text", "Cities", "SupplyCities");
+  DataSupplier.registerDataSupplier("public.text", "Dates", "SupplyDates");
+  DataSupplier.registerDataSupplier("public.text", "Phone Numbers", "SupplyPhones");
 }
 function onShutdown() {
   DataSupplier.deregisterDataSuppliers();
@@ -201,7 +201,13 @@ function onSupplyCities(context) {
 function onSupplyPhones(context) {
   var dataKey = context.data.key;
   var dataCount = context.data.requestedCount;
-  var randomNumber = Math.floor(Math.random() * (9999999 - 1000000) + 1000000);
+  var numbersSecondPart = [];
+
+  for (var i = 0; i <= dataCount; i++) {
+    var randomNumber = Math.floor(Math.random() * (9999999 - 1000000) + 1000000);
+    numbersSecondPart.push(randomNumber);
+  }
+
   var numbersFirstPart = ['۰۹۰۱', '۰۹۰۲', '۰۹۰۳', '۰۹۱۱', '۰۹۱۲', '۰۹۱۳', '۰۹۱۴', '۰۹۱۵', '۰۹۱۶', '۰۹۱۷', '۰۹۱۸', '۰۹۳۰', '۰۹۳۴', '۰۹۳۵', '۰۹۳۶', '۰۹۳۷', '۰۹۳۸', '۰۹۳۹', '۰۹۹۰'];
   var dynamicData = numbersFirstPart.slice(Math.floor(Math.random() * numbersFirstPart.length));
   dynamicData.push.apply(dynamicData, numbersFirstPart);
@@ -210,12 +216,21 @@ function onSupplyPhones(context) {
     dynamicData.push.apply(dynamicData, numbersFirstPart);
   }
 
+  var secondDynamicData = numbersSecondPart.slice(Math.floor(Math.random() * numbersSecondPart.length));
+  secondDynamicData.push.apply(secondDynamicData, numbersSecondPart);
+
+  while (secondDynamicData.length < dataCount) {
+    secondDynamicData.push.apply(secondDynamicData, numbersSecondPart);
+  }
+
   shuffle(dynamicData);
+  shuffle(secondDynamicData);
   dynamicData = dynamicData.slice(0, dataCount);
+  secondDynamicData = secondDynamicData.slice(0, dataCount);
   var dataIndex = 0;
 
   while (dataIndex < dataCount) {
-    DataSupplier.supplyDataAtIndex(dataKey, "".concat(dynamicData).concat(toPersian(randomNumber)), dataIndex);
+    DataSupplier.supplyDataAtIndex(dataKey, "".concat(dynamicData[dataIndex]).concat(toPersian(secondDynamicData[dataIndex])), dataIndex);
     dataIndex++;
   }
 }
@@ -247,7 +262,7 @@ function onSupplyNames(context) {
   while (dataIndex < dataCount) {
     DataSupplier.supplyDataAtIndex(dataKey, "".concat(namesDynamicData[dataIndex], " ").concat(lastNamesDynamicData[dataIndex]), dataIndex);
     dataIndex++;
-  } // DataSupplier.supplyData(dataKey, dynamicData);  
+  } // DataSupplier.supplyData(dataKey, dynamicData);
 
 }
 function onSupplyDates(context) {
@@ -294,6 +309,8 @@ function shuffle(array) {
 
   return array;
 }
+
+function unsort(dataCount) {}
 
 /***/ }),
 
