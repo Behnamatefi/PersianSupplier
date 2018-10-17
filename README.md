@@ -23,3 +23,6 @@ Meet **Persian Supplier**, as part of **BOX** products. a handy sketch plugin wh
 3. Delete previously installed version of the plugin (`persiansupplier` folder or `persiansupplier.sketchplugin` bundle)
 
 4. Un-zip downloaded archive and double-click `PersianSupplier.sketchplugin` file to install.
+
+<h3>Usage</h3>
+<img src="usage.gif" />
