@@ -27,11 +27,11 @@ Meet **Persian Supplier**, as part of **BOX** products. a handy sketch plugin wh
 <h3>Shortcut for refreshing data</h3>
 Hit Cmd + Shift + D for refreshing data quickly
 
+<h3>Usage</h3>
+<img src="http://s8.picofile.com/file/8340286318/usage.gif" />
+
 <h3>Contacts</h3>
 <ul>
   <li>Hirad Arshadi - <a href="https://twitter.com/hiradary">Twitter</a></li>
   <li>Arman Rokni - <a href="https://twitter.com/arwanrokni">Twitter</a></li>
 </ul>
-
-<h3>Usage</h3>
-<img src="http://s8.picofile.com/file/8340286318/usage.gif" />
