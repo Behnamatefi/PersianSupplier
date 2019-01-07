@@ -1,8 +1,7 @@
 ![BOX](http://s8.picofile.com/file/8340119850/box_header.png)
 
-![banner.png](https://raw.githubusercontent.com/canisminor1990/anto/master/docs/banner.png)
 
-[![GitHub release](https://img.shields.io/github/release/canisminor1990/anto.svg)](https://github.com/canisminor1990/anto/releases) [![GitHub release](https://img.shields.io/badge/Works%20with-Sketch%20Runner-blue.svg?colorB=308ADF)](http://bit.ly/SketchRunnerWebsite) [![](https://img.shields.io/github/downloads/canisminor1990/anto/total.svg)](https://github.com/hiradarshadi/PersianSupplier/releases)
+[![GitHub release](https://img.shields.io/github/release/canisminor1990/anto.svg)](https://github.com/hiradarshadi/PersianSupplier/releases) [![GitHub release](https://img.shields.io/badge/Works%20with-Sketch%20Runner-blue.svg?colorB=308ADF)](http://bit.ly/SketchRunnerWebsite) [![](https://img.shields.io/github/downloads/canisminor1990/anto/total.svg)](https://github.com/canisminor1990/anto/releases)
 
 
 # Persian Supplier
